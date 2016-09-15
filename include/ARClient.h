@@ -43,6 +43,13 @@ typedef NS_ENUM(NSInteger, VideoType) {
 + (void)enableDebug;
 
 /**
+ *  删除缓存图片
+ *
+ *  @param url 所识别图片的url
+ */
++ (void)removeImageName:(NSString *)url;
+
+/**
  *  AR视图
  */
 @property (nonatomic, readonly) OpenGLView *glView;
@@ -76,17 +83,20 @@ typedef NS_ENUM(NSInteger, VideoType) {
 /**
  *  添加AR目标
  *
- *  @param name   所识别图片名
+ *  @param name   所识别图片名(全路径)
  *  @param target AR目标
+ *  @param type   视频类型
  */
 - (void)loadName:(NSString *)name target:(NSString *)target type:(VideoType)type;
 
 /**
- *  从json配置文件加载识别的平面图像
+ *  从url添加AR目标
  *
- *  @param jsonFile json配置文件
+ *  @param url    所识别图片的url
+ *  @param target AR目标
+ *  @param type   视频类型
  */
-- (void)loadAllTargetsFromJsonFile:(NSString *)jsonFile;
+- (void)loadURL:(NSString *)url target:(NSString *)target type:(VideoType)type;
 
 /**
  *  启动AR
@@ -98,5 +108,13 @@ typedef NS_ENUM(NSInteger, VideoType) {
  *  停止AR
  */
 - (void)stop;
+
+/**
+ *  拍照截图
+ *
+ *  @param waterMark 水印拼图
+ *  @param completion 返回截图内容
+ */
+- (void)snapshot:(UIImage *)waterMark completion:(void(^)(UIImage *image))completion;
 
 @end

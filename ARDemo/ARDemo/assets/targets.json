@@ -1,0 +1,17 @@
+{
+  "images" :
+  [
+    {
+      "image" : "argame00.jpg",
+      "name" : "argame"
+    },
+    {
+      "image" : "idback.jpg",
+      "name" : "idback"
+    },
+    {
+      "image" : "namecard.jpg",
+      "name" : "namecard"
+    }
+  ]
+}

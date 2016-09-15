@@ -21,5 +21,7 @@ ARKIT_EXTERN NSString *const VideoWillPlayNotification;
 ARKIT_EXTERN NSString *const VideoDidPlayNotification;
 ARKIT_EXTERN NSString *const VideoWillPauseNotification;
 ARKIT_EXTERN NSString *const VideoDidPauseNotification;
+ARKIT_EXTERN NSString *const VideoCompletedNotification;
+ARKIT_EXTERN NSString *const VideoErrorNotification;
 
 #import <ARClient.h>

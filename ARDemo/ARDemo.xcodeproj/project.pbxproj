@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0194CC1D705F8700AE5DF4 /* pic_ar_picmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0194CA1D705F8700AE5DF4 /* pic_ar_picmark@2x.png */; };
+		FC0194CD1D705F8700AE5DF4 /* pic_ar_picmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0194CB1D705F8700AE5DF4 /* pic_ar_picmark@3x.png */; };
+		FC1190F01D8B24B5000862DB /* libARKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1190EE1D8B24B5000862DB /* libARKit.a */; };
+		FC1190F11D8B24B5000862DB /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1190EF1D8B24B5000862DB /* easyar.framework */; };
+		FC1190F21D8B24E6000862DB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCA37431D5DABA900F61861 /* libstdc++.tbd */; };
+		FC1190F41D8B262D000862DB /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC1190F31D8B262D000862DB /* video.mp4 */; };
+		FCC111621D65EC210065AA8F /* take_photo_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC111611D65EC210065AA8F /* take_photo_icon@2x.png */; };
+		FCC111661D6610EB0065AA8F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC111651D6610EB0065AA8F /* AudioToolbox.framework */; };
+		FCCA373B1D5DAAE900F61861 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCCA37351D5DAAE900F61861 /* idback.jpg */; };
+		FCCA373C1D5DAAE900F61861 /* namecard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCCA37361D5DAAE900F61861 /* namecard.jpg */; };
+		FCCA373D1D5DAAE900F61861 /* targets.json in Resources */ = {isa = PBXBuildFile; fileRef = FCCA37371D5DAAE900F61861 /* targets.json */; };
+		FCCA373E1D5DAAE900F61861 /* transparentvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FCCA37381D5DAAE900F61861 /* transparentvideo.mp4 */; };
+		FCCA37501D5DAC2D00F61861 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCA374F1D5DAC2D00F61861 /* CoreMedia.framework */; };
+		FCCA37521D5DAC3400F61861 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCA37511D5DAC3400F61861 /* AVFoundation.framework */; };
+		FCFB33331D5D99A7003BFB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB33321D5D99A7003BFB7A /* main.m */; };
+		FCFB33361D5D99A7003BFB7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB33351D5D99A7003BFB7A /* AppDelegate.m */; };
+		FCFB33391D5D99A7003BFB7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB33381D5D99A7003BFB7A /* ViewController.m */; };
+		FCFB333C1D5D99A7003BFB7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFB333A1D5D99A7003BFB7A /* Main.storyboard */; };
+		FCFB333E1D5D99A7003BFB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFB333D1D5D99A7003BFB7A /* Assets.xcassets */; };
+		FCFB33411D5D99A7003BFB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFB333F1D5D99A7003BFB7A /* LaunchScreen.storyboard */; };
+		FCFB334C1D5D99A7003BFB7A /* ARDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFB334B1D5D99A7003BFB7A /* ARDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFB33481D5D99A7003BFB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFB33261D5D99A7003BFB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFB332D1D5D99A7003BFB7A;
+			remoteInfo = ARDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0194CA1D705F8700AE5DF4 /* pic_ar_picmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_ar_picmark@2x.png"; sourceTree = "<group>"; };
+		FC0194CB1D705F8700AE5DF4 /* pic_ar_picmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_ar_picmark@3x.png"; sourceTree = "<group>"; };
+		FC1190EC1D8B24B5000862DB /* ARClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARClient.h; sourceTree = "<group>"; };
+		FC1190ED1D8B24B5000862DB /* ARKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKit.h; sourceTree = "<group>"; };
+		FC1190EE1D8B24B5000862DB /* libARKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libARKit.a; sourceTree = "<group>"; };
+		FC1190EF1D8B24B5000862DB /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = easyar.framework; sourceTree = "<group>"; };
+		FC1190F31D8B262D000862DB /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		FCC111611D65EC210065AA8F /* take_photo_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_photo_icon@2x.png"; sourceTree = "<group>"; };
+		FCC111651D6610EB0065AA8F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FCCA37351D5DAAE900F61861 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = idback.jpg; sourceTree = "<group>"; };
+		FCCA37361D5DAAE900F61861 /* namecard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namecard.jpg; sourceTree = "<group>"; };
+		FCCA37371D5DAAE900F61861 /* targets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = targets.json; sourceTree = "<group>"; };
+		FCCA37381D5DAAE900F61861 /* transparentvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = transparentvideo.mp4; sourceTree = "<group>"; };
+		FCCA37431D5DABA900F61861 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		FCCA374F1D5DAC2D00F61861 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FCCA37511D5DAC3400F61861 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FCFB332E1D5D99A7003BFB7A /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFB33321D5D99A7003BFB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFB33341D5D99A7003BFB7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFB33351D5D99A7003BFB7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFB33371D5D99A7003BFB7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFB33381D5D99A7003BFB7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFB333B1D5D99A7003BFB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFB333D1D5D99A7003BFB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFB33401D5D99A7003BFB7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFB33421D5D99A7003BFB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFB33471D5D99A7003BFB7A /* ARDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFB334B1D5D99A7003BFB7A /* ARDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDemoTests.m; sourceTree = "<group>"; };
+		FCFB334D1D5D99A7003BFB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFB332B1D5D99A7003BFB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1190F21D8B24E6000862DB /* libstdc++.tbd in Frameworks */,
+				FCC111661D6610EB0065AA8F /* AudioToolbox.framework in Frameworks */,
+				FC1190F01D8B24B5000862DB /* libARKit.a in Frameworks */,
+				FCCA37521D5DAC3400F61861 /* AVFoundation.framework in Frameworks */,
+				FCCA37501D5DAC2D00F61861 /* CoreMedia.framework in Frameworks */,
+				FC1190F11D8B24B5000862DB /* easyar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB33441D5D99A7003BFB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1190E91D8B24B5000862DB /* ARFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1190EA1D8B24B5000862DB /* ARKit */,
+				FC1190EF1D8B24B5000862DB /* easyar.framework */,
+			);
+			path = ARFrameworks;
+			sourceTree = "<group>";
+		};
+		FC1190EA1D8B24B5000862DB /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				FC1190EB1D8B24B5000862DB /* include */,
+				FC1190EE1D8B24B5000862DB /* libARKit.a */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		FC1190EB1D8B24B5000862DB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FC1190EC1D8B24B5000862DB /* ARClient.h */,
+				FC1190ED1D8B24B5000862DB /* ARKit.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FCC111601D65EC210065AA8F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FCC111611D65EC210065AA8F /* take_photo_icon@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FCCA37331D5DAAE900F61861 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				FC1190F31D8B262D000862DB /* video.mp4 */,
+				FC0194CA1D705F8700AE5DF4 /* pic_ar_picmark@2x.png */,
+				FC0194CB1D705F8700AE5DF4 /* pic_ar_picmark@3x.png */,
+				FCCA37351D5DAAE900F61861 /* idback.jpg */,
+				FCCA37361D5DAAE900F61861 /* namecard.jpg */,
+				FCCA37371D5DAAE900F61861 /* targets.json */,
+				FCCA37381D5DAAE900F61861 /* transparentvideo.mp4 */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		FCCA37531D5DAC4000F61861 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA37431D5DABA900F61861 /* libstdc++.tbd */,
+				FCC111651D6610EB0065AA8F /* AudioToolbox.framework */,
+				FCCA37511D5DAC3400F61861 /* AVFoundation.framework */,
+				FCCA374F1D5DAC2D00F61861 /* CoreMedia.framework */,
+				FC1190E91D8B24B5000862DB /* ARFrameworks */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		FCFB33251D5D99A7003BFB7A = {
+			isa = PBXGroup;
+			children = (
+				FCFB33301D5D99A7003BFB7A /* ARDemo */,
+				FCFB334A1D5D99A7003BFB7A /* ARDemoTests */,
+				FCFB332F1D5D99A7003BFB7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFB332F1D5D99A7003BFB7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB332E1D5D99A7003BFB7A /* ARDemo.app */,
+				FCFB33471D5D99A7003BFB7A /* ARDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFB33301D5D99A7003BFB7A /* ARDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCC111601D65EC210065AA8F /* Resource */,
+				FCCA37531D5DAC4000F61861 /* Framework */,
+				FCCA37331D5DAAE900F61861 /* assets */,
+				FCFB33341D5D99A7003BFB7A /* AppDelegate.h */,
+				FCFB33351D5D99A7003BFB7A /* AppDelegate.m */,
+				FCFB33371D5D99A7003BFB7A /* ViewController.h */,
+				FCFB33381D5D99A7003BFB7A /* ViewController.m */,
+				FCFB333A1D5D99A7003BFB7A /* Main.storyboard */,
+				FCFB333D1D5D99A7003BFB7A /* Assets.xcassets */,
+				FCFB333F1D5D99A7003BFB7A /* LaunchScreen.storyboard */,
+				FCFB33421D5D99A7003BFB7A /* Info.plist */,
+				FCFB33311D5D99A7003BFB7A /* Supporting Files */,
+			);
+			path = ARDemo;
+			sourceTree = "<group>";
+		};
+		FCFB33311D5D99A7003BFB7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB33321D5D99A7003BFB7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCFB334A1D5D99A7003BFB7A /* ARDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB334B1D5D99A7003BFB7A /* ARDemoTests.m */,
+				FCFB334D1D5D99A7003BFB7A /* Info.plist */,
+			);
+			path = ARDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFB332D1D5D99A7003BFB7A /* ARDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFB33501D5D99A7003BFB7A /* Build configuration list for PBXNativeTarget "ARDemo" */;
+			buildPhases = (
+				FCFB332A1D5D99A7003BFB7A /* Sources */,
+				FCFB332B1D5D99A7003BFB7A /* Frameworks */,
+				FCFB332C1D5D99A7003BFB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDemo;
+			productName = ARDemo;
+			productReference = FCFB332E1D5D99A7003BFB7A /* ARDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFB33461D5D99A7003BFB7A /* ARDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFB33531D5D99A7003BFB7A /* Build configuration list for PBXNativeTarget "ARDemoTests" */;
+			buildPhases = (
+				FCFB33431D5D99A7003BFB7A /* Sources */,
+				FCFB33441D5D99A7003BFB7A /* Frameworks */,
+				FCFB33451D5D99A7003BFB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFB33491D5D99A7003BFB7A /* PBXTargetDependency */,
+			);
+			name = ARDemoTests;
+			productName = ARDemoTests;
+			productReference = FCFB33471D5D99A7003BFB7A /* ARDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFB33261D5D99A7003BFB7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ChinaHR;
+				TargetAttributes = {
+					FCFB332D1D5D99A7003BFB7A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 33SWE96Z9N;
+					};
+					FCFB33461D5D99A7003BFB7A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FCFB332D1D5D99A7003BFB7A;
+					};
+				};
+			};
+			buildConfigurationList = FCFB33291D5D99A7003BFB7A /* Build configuration list for PBXProject "ARDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFB33251D5D99A7003BFB7A;
+			productRefGroup = FCFB332F1D5D99A7003BFB7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFB332D1D5D99A7003BFB7A /* ARDemo */,
+				FCFB33461D5D99A7003BFB7A /* ARDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFB332C1D5D99A7003BFB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB33411D5D99A7003BFB7A /* LaunchScreen.storyboard in Resources */,
+				FCFB333E1D5D99A7003BFB7A /* Assets.xcassets in Resources */,
+				FCC111621D65EC210065AA8F /* take_photo_icon@2x.png in Resources */,
+				FCFB333C1D5D99A7003BFB7A /* Main.storyboard in Resources */,
+				FCCA373E1D5DAAE900F61861 /* transparentvideo.mp4 in Resources */,
+				FC0194CD1D705F8700AE5DF4 /* pic_ar_picmark@3x.png in Resources */,
+				FCCA373C1D5DAAE900F61861 /* namecard.jpg in Resources */,
+				FC0194CC1D705F8700AE5DF4 /* pic_ar_picmark@2x.png in Resources */,
+				FC1190F41D8B262D000862DB /* video.mp4 in Resources */,
+				FCCA373D1D5DAAE900F61861 /* targets.json in Resources */,
+				FCCA373B1D5DAAE900F61861 /* idback.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB33451D5D99A7003BFB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFB332A1D5D99A7003BFB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB33391D5D99A7003BFB7A /* ViewController.m in Sources */,
+				FCFB33361D5D99A7003BFB7A /* AppDelegate.m in Sources */,
+				FCFB33331D5D99A7003BFB7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB33431D5D99A7003BFB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB334C1D5D99A7003BFB7A /* ARDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFB33491D5D99A7003BFB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFB332D1D5D99A7003BFB7A /* ARDemo */;
+			targetProxy = FCFB33481D5D99A7003BFB7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFB333A1D5D99A7003BFB7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFB333B1D5D99A7003BFB7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFB333F1D5D99A7003BFB7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFB33401D5D99A7003BFB7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFB334E1D5D99A7003BFB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCFB334F1D5D99A7003BFB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFB33511D5D99A7003BFB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARDemo/ARFrameworks",
+				);
+				INFOPLIST_FILE = ARDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARDemo/ARFrameworks/ARKit",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ARKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FCFB33521D5D99A7003BFB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARDemo/ARFrameworks",
+				);
+				INFOPLIST_FILE = ARDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ARDemo/ARFrameworks/ARKit",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ARKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FCFB33541D5D99A7003BFB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myjob.ARDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDemo.app/ARDemo";
+			};
+			name = Debug;
+		};
+		FCFB33551D5D99A7003BFB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myjob.ARDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDemo.app/ARDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFB33291D5D99A7003BFB7A /* Build configuration list for PBXProject "ARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB334E1D5D99A7003BFB7A /* Debug */,
+				FCFB334F1D5D99A7003BFB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFB33501D5D99A7003BFB7A /* Build configuration list for PBXNativeTarget "ARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB33511D5D99A7003BFB7A /* Debug */,
+				FCFB33521D5D99A7003BFB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFB33531D5D99A7003BFB7A /* Build configuration list for PBXNativeTarget "ARDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB33541D5D99A7003BFB7A /* Debug */,
+				FCFB33551D5D99A7003BFB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFB33261D5D99A7003BFB7A /* Project object */;
+}
